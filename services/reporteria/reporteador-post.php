@@ -76,7 +76,7 @@ if ($_POST) {
         }
 
         if ($hdTipoFormato === 'PDF') {
-            $folderPDF = $directorioServer . '/media/pdf/';
+            $folderPDF = $_SERVER['DOCUMENT_ROOT'] . '/media/pdf/';
 
             if ($ddlTipoReporte === '10') {
                 $estilos = '.bg-erBlue { background-color: #00B0F0; }';
@@ -124,7 +124,7 @@ if ($_POST) {
 		        }';
             }
         } elseif ($hdTipoFormato === 'EXCEL') {
-            $folderXLS = '../../media/xls/';
+            $folderXLS = $_SERVER['DOCUMENT_ROOT'] . '/media/xls/';
 
             require '../../common/PHPExcel.php';
             require '../../common/PHPExcel/Writer/Excel2007.php';
@@ -256,14 +256,20 @@ if ($_POST) {
                 $totalGasto += $rsGastoResumen[$i]['importe'];
             }
 
-            $totalEstimacion = $objEstadoResultados->ObtenerEstimacion_Proyecto($conectar, $hdIdProyecto, $ddlAnho, $ddlMes);
-            $cuentaEstimacion = $objEstadoResultados->ObtenerEstimacion_Proyecto__Count($conectar, $hdIdProyecto, $ddlAnho, $ddlMes);
+            $totalEstimacion = $objEstadoResultados->ObtenerEstimacion_Proyecto($conectar, $hdIdProyecto, $ddlAnho,
+                $ddlMes);
+            $cuentaEstimacion = $objEstadoResultados->ObtenerEstimacion_Proyecto__Count($conectar, $hdIdProyecto,
+                $ddlAnho, $ddlMes);
 
-            $totalRecaudado = $objEstadoResultados->ObtenerImporte_Proyecto($conectar, $hdIdProyecto, $ddlAnho, $ddlMes);
-            $cuentaRecaudado = $objEstadoResultados->ObtenerImporte_Proyecto__Count($conectar, $hdIdProyecto, $ddlAnho, $ddlMes);
+            $totalRecaudado = $objEstadoResultados->ObtenerImporte_Proyecto($conectar, $hdIdProyecto, $ddlAnho,
+                $ddlMes);
+            $cuentaRecaudado = $objEstadoResultados->ObtenerImporte_Proyecto__Count($conectar, $hdIdProyecto, $ddlAnho,
+                $ddlMes);
 
-            $totalPendiente = $objEstadoResultados->Propiedades_Pendientes__Suma($conectar, $hdIdProyecto, $ddlAnho, $ddlMes);
-            $cuentaPendiente = $objEstadoResultados->Propiedades_Pendientes__Count($conectar, $hdIdProyecto, $ddlAnho, $ddlMes);
+            $totalPendiente = $objEstadoResultados->Propiedades_Pendientes__Suma($conectar, $hdIdProyecto, $ddlAnho,
+                $ddlMes);
+            $cuentaPendiente = $objEstadoResultados->Propiedades_Pendientes__Count($conectar, $hdIdProyecto, $ddlAnho,
+                $ddlMes);
 
             $objEstadoResultados->_desconectar($conectar);
 
@@ -272,7 +278,8 @@ if ($_POST) {
             $_mes = $meses[$ddlMes - 1];
 
             $contentBody = str_replace('[logocinadsac]', 'dist/img/logo-cinadsac.jpg', $contenido);
-            $contentBody = str_replace('[logoproyecto]', ($logoproyecto === 'no-set' ? 'dist/img/logo-cinadsac.jpg' : $logoproyecto), $contentBody);
+            $contentBody = str_replace('[logoproyecto]',
+                ($logoproyecto === 'no-set' ? 'dist/img/logo-cinadsac.jpg' : $logoproyecto), $contentBody);
             $contentBody = str_replace('[nombreproyecto]', $nombreproyecto, $contentBody);
             $contentBody = str_replace('[contentgasto]', $strfilas__gasto, $contentBody);
             $contentBody = str_replace('[anho_proceso]', $ddlAnho, $contentBody);

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3a3d088-0276-4f11-bec6-df76f9e9e005" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/services/reporteria/reporteador-post.php" afterPath="$PROJECT_DIR$/services/reporteria/reporteador-post.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,17 +31,17 @@
       <file leaf-file-name="reporteador-post.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/reporteria/reporteador-post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="298">
+              <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="67" />
               <folding>
-                <marker date="1522712876585" expanded="true" signature="9601:9616" ph="..." />
-                <marker date="1522712876585" expanded="true" signature="9666:9700" ph="..." />
-                <marker date="1522712876585" expanded="true" signature="9952:9967" ph="..." />
-                <marker date="1522712876585" expanded="true" signature="10005:10020" ph="..." />
-                <marker date="1522712876585" expanded="true" signature="10063:10082" ph="..." />
-                <marker date="1522712876585" expanded="true" signature="10226:10243" ph="..." />
-                <marker date="1522712876585" expanded="true" signature="18048:18407" ph="..." />
-                <marker date="1522712876585" expanded="true" signature="18061:18353" ph="..." />
+                <marker date="1522761599948" expanded="true" signature="9632:9647" ph="..." />
+                <marker date="1522761599948" expanded="true" signature="9697:9731" ph="..." />
+                <marker date="1522761599948" expanded="true" signature="9983:9998" ph="..." />
+                <marker date="1522761599948" expanded="true" signature="10036:10051" ph="..." />
+                <marker date="1522761599948" expanded="true" signature="10094:10113" ph="..." />
+                <marker date="1522761599948" expanded="true" signature="10257:10274" ph="..." />
+                <marker date="1522761599948" expanded="true" signature="18191:18550" ph="..." />
+                <marker date="1522761599948" expanded="true" signature="18204:18496" ph="..." />
               </folding>
             </state>
           </provider>
@@ -54,7 +52,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>==</find>
+      <find>out</find>
+      <find>$fileFactura</find>
+      <find>$folderXLS</find>
+      <find>$nombreFileReporte</find>
+      <find>Output</find>
       <find>$fileReport</find>
+      <find>$folderPDF</find>
     </findStrings>
     <replaceStrings>
       <replace>===</replace>
@@ -68,6 +72,7 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/services/reporteria/reporteador-post.php" />
+        <option value="&lt;3ca1db4c-194d-4cd1-ba2c-6016ae1fc2fd&gt;/services/reporteria/reporteador-post.php" />
       </list>
     </option>
   </component>
@@ -78,11 +83,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="830" />
-    <option name="y" value="39" />
-    <option name="width" value="1090" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="109" />
+    <option name="y" value="40" />
+    <option name="width" value="1226" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -99,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -113,14 +117,27 @@
               <item name="fac" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="services" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="fac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fac" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="services" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="facturacion" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="fac" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fac" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="services" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="reporteria" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Proyectos/Metrics" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
@@ -159,7 +176,9 @@
       <updated>1522182351569</updated>
       <workItem from="1522182352743" duration="2811000" />
       <workItem from="1522258082593" duration="602000" />
-      <workItem from="1522711544521" duration="2149000" />
+      <workItem from="1522711544521" duration="2324000" />
+      <workItem from="1522760383221" duration="2148000" />
+      <workItem from="1522876801602" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="wip">
       <created>1522182413281</created>
@@ -168,14 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522182413281</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wip">
+      <created>1522713915980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522713915980</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5562000" />
+    <option name="totallyTimeSpent" value="7899000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <frame x="109" y="40" width="1226" height="1041" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -183,9 +209,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2379936" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3779661" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Api Debugger" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44823906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17033899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -222,14 +248,31 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1522712876585" expanded="true" signature="9601:9616" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="9666:9700" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="9952:9967" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="10005:10020" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="10063:10082" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="10226:10243" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="18048:18407" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="18061:18353" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="9632:9647" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="9697:9731" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="9983:9998" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="10036:10051" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="10094:10113" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="10257:10274" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="18191:18550" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="18204:18496" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/reporteria/reporteador-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1522761599948" expanded="true" signature="9632:9647" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="9697:9731" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="9983:9998" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="10036:10051" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="10094:10113" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="10257:10274" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="18191:18550" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="18204:18496" ph="..." />
           </folding>
         </state>
       </provider>
@@ -241,19 +284,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/services/facturacion/facturacion-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="592" column="27" lean-forward="true" selection-start-line="592" selection-start-column="27" selection-end-line="592" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/services/reporteria/reporteador-post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="298">
+          <caret line="78" column="12" lean-forward="false" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="67" />
           <folding>
-            <marker date="1522712876585" expanded="true" signature="9601:9616" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="9666:9700" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="9952:9967" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="10005:10020" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="10063:10082" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="10226:10243" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="18048:18407" ph="..." />
-            <marker date="1522712876585" expanded="true" signature="18061:18353" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="9632:9647" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="9697:9731" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="9983:9998" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="10036:10051" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="10094:10113" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="10257:10274" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="18191:18550" ph="..." />
+            <marker date="1522761599948" expanded="true" signature="18204:18496" ph="..." />
           </folding>
         </state>
       </provider>
